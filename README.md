@@ -40,18 +40,18 @@ In certain instances the CWA/CWV/CWN will not enter PROGRAM/DOWNLOAD by itself w
 - Press and keep holding &#x25B6; down
 - Click &#x21BB;
 - Release &#x25B6;
-- <font color="#f00">&#x2600;</font> will illuminate **_continuously_**, verifying that the core is in PROGRAM/DOWNLOAD mode
+- :red_circle: will illuminate **_continuously_**, verifying that the core is in PROGRAM/DOWNLOAD mode
 
 If you have manually entered PROGRAM/DOWNLOAD as per above, you also need to manually reset the circuit:
 - Click &#x21BB;
-- <font color="#f00">&#x2600;</font> will stop illuminating, verifying that the core is in EXECUTION/RUN mode (unless your program purposefully are illuminating the LED!)
+- :red_circle: will stop illuminating, verifying that the core is in EXECUTION/RUN mode (unless your program purposefully are illuminating the LED!)
 
 ## UF2 Bootload mode
 The core arrives with a UF2 bootloader installed, making it easier to just drag-and-drop a readymade application to the core.
 The bootloader is in bootloading mode, if you see this:
 - A drive on your computer saying `CWA`
-- <font color="#f00">&#x2600;</font> will illuminate by **_pulsing_**.
-- <font color="#0f0">&#x2600;</font> will illuminate **_continuously_**.
+- :red_circle:  illuminated by **_pulsing_**.
+- :green_circle:  illuminated **_continuously_**.
 
 If you **haven't** loaded any application onto the core, it will illuminate the LEDs as per above. If you **have** loaded an application onto the core, it will be running that application.
 To reactivate the bootloader:
