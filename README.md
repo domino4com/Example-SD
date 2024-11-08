@@ -72,4 +72,18 @@ All GPIO pins for the CWA v2 is listed here: [domino4.com/CWA](domino4.com/CWA),
 - SD Card ChipSelect:
   - SD_CS = 3
 
+# Troubleshooting
+## This software was tested using:
+- Arduino v2.3.3
+- Board Manager: **Arduino ESP32 Boards** by Arduino v.2.0.18-20240930.arduino3
+## Debug
+You can debug the code 3 different ways:
+- In the Arduino menu, choose `Tools → Core Debug Level → Verbose`
+- By using the USB-C port on the core, you also have access to the [Arduino Debugger](https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-debugger/). Give it a try, it is a powerful tool to master!
+- Go old school, and insert a stack of `Serial.println(...variable...);` into your code
+## SD Card ?  
+If you have inserted a SD Card, but it says `Card Mount Failed.`, it is very likely the SD-card that is problematic:
+- Make sure the SD-Card is maximum 32Gb
+- Make sure it is formatted as it arrived out of the box:
+   - Use this formatter only: [SD Memory Card Formatter for Windows/Mac](https://www.sdcard.org/downloads/formatter/). Any other formatter does not guarantee correct formatting!
 
