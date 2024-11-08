@@ -86,4 +86,5 @@ If you have inserted a SD Card, but it says `Card Mount Failed.`, it is very lik
 - Make sure the SD-Card is maximum 32Gb
 - Make sure it is formatted as it arrived out of the box:
    - Use this formatter only: [SD Memory Card Formatter for Windows/Mac](https://www.sdcard.org/downloads/formatter/). Any other formatter does not guarantee correct formatting!
+   - Do **not** use the `Quick format`, make sure you use the `Overwrite format`. It takes longer, but it is the only way to guarantee correct formatting
 
