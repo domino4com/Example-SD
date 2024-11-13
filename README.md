@@ -75,7 +75,7 @@ All GPIO pins for the CWA v2 is listed here: [domino4.com/CWA](domino4.com/CWA),
 # Troubleshooting
 ## This software was tested using:
 - Arduino v2.3.3
-- Board Manager: **Arduino ESP32 Boards** by Arduino v.2.0.18-20240930.arduino3
+- Board Manager: **esp32** by Espressif Systems v.3.0.5
 ## Debug
 You can debug the code 3 different ways:
 - In the Arduino menu, choose `Tools → Core Debug Level → Verbose`
